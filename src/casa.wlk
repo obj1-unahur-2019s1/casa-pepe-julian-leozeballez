@@ -30,6 +30,6 @@ object casaDePepeYJulian {
 	method faltaComida(){
 		return cosas.count { c => c.esComida() } < 2
 	}
-	method gastar(importe) {}
-	method dineroDisponible(){}
+	method gastar(importe) { }
+	method dineroDisponible(){ }
 }
